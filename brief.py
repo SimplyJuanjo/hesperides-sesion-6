@@ -214,8 +214,8 @@ def texto_titular(t: dict) -> str:
 
 
 def ids_de(texto: str) -> list[str]:
-    """Los ids citados, sin repetir y en orden: «sube [C3][T1] y baja [C3]» → ["C3", "T1"]."""
-    return list(dict.fromkeys(re.findall(r"\[([CT]\d+)\]", texto)))
+    """Los ids citados, sin repetir y en orden: «sube [C3][T1] y baja [ C3 ]» → ["C3", "T1"]."""
+    return list(dict.fromkeys(re.findall(r"\[\s*([CT]\d+)\s*\]", texto)))
 
 
 def numeros_de(texto: str) -> list[str]:
@@ -226,8 +226,8 @@ def numeros_de(texto: str) -> list[str]:
     «2,50» sale «2,5». No cuentan los ids de las citas, [C1] o [T2], ni el número de una lista numerada
     al principio de la línea («1. »), ni los números en emoji («1️⃣»).
     """
-    texto = re.sub(r"\[[CT]\d+\]", " ", texto)
-    texto = re.sub(r"\d\ufe0f?\u20e3", " ", texto)
+    texto = re.sub(r"\[\s*[CT]\d+\s*\]", " ", texto)
+    texto = re.sub(r"\d+\ufe0f?\u20e3", " ", texto)
     texto = re.sub(r"^\s*(?:[-*]\s*)?\d+[.)]\s", " ", texto, flags=re.MULTILINE)
     texto = re.sub(r"(?<=\d)[ \u00a0\u202f](?=\d{3}(?!\d))", "", texto)
     numeros = []

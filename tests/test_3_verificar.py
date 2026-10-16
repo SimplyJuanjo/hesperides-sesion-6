@@ -19,6 +19,10 @@ def test_dos_citas_en_la_misma_linea():
     assert verificar("El Euríbor, en el 3,247 % [C1], sube 1,075 puntos en un año [T1].", CIFRAS, TITULARES) == []
 
 
+def test_una_cita_con_espacios_tambien_es_cita():
+    assert verificar("El Euríbor a 12 meses está en el 3,247 % [ C1 ].", CIFRAS, TITULARES) == []
+
+
 def test_una_cita_que_no_existe():
     assert any("[C9]" in p for p in verificar("El Euríbor sube [C9].", CIFRAS, TITULARES))
 
@@ -54,6 +58,7 @@ def test_los_miles_se_pueden_escribir_con_punto_o_con_espacio():
 def test_el_numero_de_una_lista_no_cuenta():
     assert verificar("1. El Euríbor a 12 meses está en el 3,247 % [C1].", CIFRAS, TITULARES) == []
     assert verificar("- 1️⃣ El Euríbor a 12 meses está en el 3,247 % [C1].", CIFRAS, TITULARES) == []
+    assert verificar("- 10️⃣ El Euríbor a 12 meses está en el 3,247 % [C1].", CIFRAS, TITULARES) == []
 
 
 def test_numeros_sin_ninguna_cita():
