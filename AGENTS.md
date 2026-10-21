@@ -6,7 +6,7 @@ Un grafo de LangGraph que escribe un brief de mercados de la zona euro con datos
 
 ## Reglas
 
-- Usa solo LangGraph y la biblioteca estándar de Python.
+- Usa solo LangGraph y la biblioteca estándar de Python. En `extras/`, también lo que diga `extras/requirements.txt`.
 - Deja como están `tests/`, `datos/`, `modelos.py`, `generar.py` y las funciones de `brief.py` que ya vienen escritas.
 - Las cuentas las hace Python en un nodo, nunca el LLM. Al modelo solo se le llama con `modelos.redactar`.
 - Una fuente nueva es una entrada nueva en `SERIES` o `RSS` de `fuentes.py`.

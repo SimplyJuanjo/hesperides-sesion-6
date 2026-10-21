@@ -61,6 +61,7 @@ Con todo en verde, hazlo tuyo:
 - Añade una serie a `fuentes.py`: cualquier clave del [portal de datos del BCE](https://data.ecb.europa.eu) o un símbolo de Yahoo Finance.
 - Si tu lector quiere un dato que no está, como la pendiente de la curva (10 años menos 2), añade un nodo que lo calcule con Python en vez de pedírselo al modelo.
 - Saca el brief en HTML o mándalo por correo.
+- Más ideas y otras piezas de LangGraph, con tres ejemplos que funcionan (un nodo quant, noticias de la web con Tavily y aprobar otro día): [extras/](extras/README.md).
 
 ## Qué hay
 
