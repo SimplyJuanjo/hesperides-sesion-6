@@ -1,5 +1,5 @@
 {
- "guardada": "2026-10-16T11:49:39+00:00",
+ "guardada": "2026-10-21T16:13:57+00:00",
  "series": {
   "deposito": [
    [
@@ -105,18 +105,6 @@
   ],
   "estr": [
    [
-    "2026-09-11",
-    2.189
-   ],
-   [
-    "2026-09-14",
-    2.19
-   ],
-   [
-    "2026-09-15",
-    2.19
-   ],
-   [
     "2026-09-16",
     2.441
    ],
@@ -202,6 +190,18 @@
    ],
    [
     "2026-10-15",
+    2.44
+   ],
+   [
+    "2026-10-16",
+    2.441
+   ],
+   [
+    "2026-10-19",
+    2.441
+   ],
+   [
+    "2026-10-20",
     2.44
    ]
   ],
@@ -309,18 +309,6 @@
   ],
   "bono2": [
    [
-    "2026-09-11",
-    3.1275687541
-   ],
-   [
-    "2026-09-14",
-    3.2277796081
-   ],
-   [
-    "2026-09-15",
-    3.1878043845
-   ],
-   [
     "2026-09-16",
     3.1657762564
    ],
@@ -407,21 +395,21 @@
    [
     "2026-10-15",
     2.9927412165
+   ],
+   [
+    "2026-10-16",
+    3.0299726083
+   ],
+   [
+    "2026-10-19",
+    3.0533254392
+   ],
+   [
+    "2026-10-20",
+    3.0280750033
    ]
   ],
   "bono10": [
-   [
-    "2026-09-11",
-    3.5227293419
-   ],
-   [
-    "2026-09-14",
-    3.5409400409
-   ],
-   [
-    "2026-09-15",
-    3.5437008047
-   ],
    [
     "2026-09-16",
     3.5334760721
@@ -509,6 +497,18 @@
    [
     "2026-10-15",
     3.390425514
+   ],
+   [
+    "2026-10-16",
+    3.4444646497
+   ],
+   [
+    "2026-10-19",
+    3.4690828084
+   ],
+   [
+    "2026-10-20",
+    3.440101577
    ]
   ],
   "bono10_es": [
@@ -819,22 +819,6 @@
   ],
   "eurusd": [
    [
-    "2026-09-11",
-    1.1592
-   ],
-   [
-    "2026-09-14",
-    1.1551
-   ],
-   [
-    "2026-09-15",
-    1.1539
-   ],
-   [
-    "2026-09-16",
-    1.1537
-   ],
-   [
     "2026-09-17",
     1.1481
    ],
@@ -917,21 +901,25 @@
    [
     "2026-10-15",
     1.1208
+   ],
+   [
+    "2026-10-16",
+    1.1253
+   ],
+   [
+    "2026-10-19",
+    1.1225
+   ],
+   [
+    "2026-10-20",
+    1.1215
+   ],
+   [
+    "2026-10-21",
+    1.1234
    ]
   ],
   "ibex": [
-   [
-    "2026-09-16",
-    19635.8008
-   ],
-   [
-    "2026-09-17",
-    19831.8008
-   ],
-   [
-    "2026-09-18",
-    19513.8008
-   ],
    [
     "2026-09-21",
     19724.4004
@@ -1010,22 +998,22 @@
    ],
    [
     "2026-10-16",
-    19320.5996
+    19326.3008
+   ],
+   [
+    "2026-10-19",
+    19039.3008
+   ],
+   [
+    "2026-10-20",
+    19092.4004
+   ],
+   [
+    "2026-10-21",
+    19323.5
    ]
   ],
   "stoxx": [
-   [
-    "2026-09-16",
-    6266.5
-   ],
-   [
-    "2026-09-17",
-    6322.8999
-   ],
-   [
-    "2026-09-18",
-    6236.2002
-   ],
    [
     "2026-09-21",
     6318.2002
@@ -1104,7 +1092,19 @@
    ],
    [
     "2026-10-16",
-    6202.1299
+    6204.23
+   ],
+   [
+    "2026-10-19",
+    6144.8101
+   ],
+   [
+    "2026-10-20",
+    6121.6602
+   ],
+   [
+    "2026-10-21",
+    6207.52
    ]
   ]
  },
@@ -1112,53 +1112,53 @@
   "bce": [
    {
     "fuente": "BCE, prensa y discursos",
-    "titulo": "Frank Elderson: Ensuring resilience in the face of uncertainty",
-    "fecha": "2026-10-14",
-    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html"
+    "titulo": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+    "fecha": "2026-10-21",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021_1~d190f2c349.en.pdf"
    },
    {
     "fuente": "BCE, prensa y discursos",
-    "titulo": "Philip R. Lane: The AI opportunity for Europe",
-    "fecha": "2026-10-13",
-    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html"
+    "titulo": "Philip R. Lane: Euro liquidity lines and the international monetary system",
+    "fecha": "2026-10-21",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261021~401d6c4b70.en.html"
    },
    {
     "fuente": "BCE, prensa y discursos",
-    "titulo": "Meeting of 9-10 September 2026",
-    "fecha": "2026-10-08",
-    "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html"
+    "titulo": "Frank Elderson: Interview with Die Presse",
+    "fecha": "2026-10-20",
+    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261020~97e2e4bc38.en.html"
    },
    {
     "fuente": "BCE, prensa y discursos",
-    "titulo": "Piero Cipollone: Interview with Corriere della Sera",
-    "fecha": "2026-10-08",
-    "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html"
+    "titulo": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
+    "fecha": "2026-10-19",
+    "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html"
    }
   ],
   "bde": [
    {
     "fuente": "Banco de España, noticias",
-    "titulo": "El Banco de España analiza en Valladolid las proyecciones macroeconómicas con los agentes sociales y la comunidad académica",
-    "fecha": "2026-10-15",
-    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/el-banco-de-espana-analiza-en-valladolid-las-proyecciones-macroeconomicas-con-los-agentes-sociales-y-la-comunidad-academica-.html"
+    "titulo": "19th Research Workshop Banco de España-CEMFI",
+    "fecha": "2026-10-21",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/eventos/conferencias/19th-research-workshop-banco-de-espana-cemfi.html"
    },
    {
     "fuente": "Banco de España, noticias",
-    "titulo": "Trabajar en el Banco de España: una forma única de construir Europa",
-    "fecha": "2026-10-15",
-    "url": "https://www.bde.es/wbe/es/inicio/noticias/trabajar-en-el-banco-de-espana-una-forma-unica-de-construir-europa.html"
+    "titulo": "La deuda de las Administraciones Públicas se situó en agosto de 2026 en el 99,7% del PIB",
+    "fecha": "2026-10-21",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/deuda-aapp-agosto26.html"
    },
    {
     "fuente": "Banco de España, noticias",
-    "titulo": "DG Economía. CREO 2026. Incertidumbre, transformación y resiliencia",
-    "fecha": "2026-10-14",
-    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/intervenciones-publicas/dg-economia-creo26.html"
+    "titulo": "El gobernador del Banco de España visita la UCLM para conocer el desarrollo del programa pionero de educación financiera",
+    "fecha": "2026-10-20",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/notas-banco-espana/el-gobernador-del-banco-de-espana-visita-la-uclm-para-conocer-el-desarrollo-del-programa-pionero-de-educacion-financiera.html"
    },
    {
     "fuente": "Banco de España, noticias",
-    "titulo": "Entrevista al director general de Operaciones, Mercados y Sistemas de Pago en Última Hora",
-    "fecha": "2026-10-14",
-    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-banco-espana/entrevista-al-director-general-de-operaciones-mercados-y-sistemas-de-pago-en-ultima-hora.html"
+    "titulo": "Balanza de pagos mensual de la zona del euro: agosto de 2026",
+    "fecha": "2026-10-20",
+    "url": "https://www.bde.es/wbe/es/noticias-eventos/actualidad-bce/notas-prensa-bce/balanza-de-pagos-mensual-de-la-zona-del-euro-agosto-de-2026.html"
    }
   ]
  }
